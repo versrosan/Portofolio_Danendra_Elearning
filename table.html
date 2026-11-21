@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table — HTML Table Demonstration | Danendra Rosan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">DANENDRA <span>ROSAN</span></a>
+
+      <button type="button" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav aria-label="Main navigation">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="learning.html" class="nav-link">Learning</a></li>
+          <li><a href="table.html" class="nav-link active">Table</a></li>
+          <li><a href="media.html" class="nav-link">Media</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <h1>HTML Table Demonstration</h1>
+        <p>
+          Halaman ini mendemonstrasikan penggunaan elemen tabel HTML semantik (<code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;th&gt;</code>, dan <code>&lt;td&gt;</code>) dengan tata letak yang responsif pada layar seluler.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header text-left-header">
+          <h2 class="section-title">Sample Project Directory</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Daftar contoh proyek latihan pengembangan web beserta teknologi dan statusnya.</p>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Project Name</th>
+                <th>Category</th>
+                <th>Technologies</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01</td>
+                <td>Personal Portfolio Website</td>
+                <td>Web Development</td>
+                <td>HTML5, CSS3, Vanilla JS</td>
+                <td><span class="status-tag">In Progress</span></td>
+              </tr>
+              <tr>
+                <td>02</td>
+                <td>Semantic Layout Practice</td>
+                <td>HTML &amp; CSS</td>
+                <td>HTML5, Flexbox, Grid</td>
+                <td><span class="status-tag">Completed</span></td>
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>Simple Form Validation</td>
+                <td>JavaScript Practice</td>
+                <td>HTML5, JavaScript DOM</td>
+                <td><span class="status-tag">Learning</span></td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>E-Learning Repository Index</td>
+                <td>Documentation</td>
+                <td>HTML5, CSS3</td>
+                <td><span class="status-tag">Active</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header text-left-header">
+          <h2 class="section-title">Weekly Study Focus</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Contoh tabel kedua untuk memetakan fokus belajar teknologi dasar.</p>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Module</th>
+                <th>Topic</th>
+                <th>Core Elements</th>
+                <th>Target Output</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dasar HTML</td>
+                <td>Struktur &amp; Teks</td>
+                <td>header, nav, main, section, footer</td>
+                <td>Halaman profil semantik</td>
+              </tr>
+              <tr>
+                <td>Data &amp; Media</td>
+                <td>Tabel &amp; Multimedia</td>
+                <td>table, tr, th, td, video, audio</td>
+                <td>Halaman Table &amp; Media</td>
+              </tr>
+              <tr>
+                <td>Interaksi</td>
+                <td>Formulir &amp; DOM</td>
+                <td>form, input, select, textarea, button</td>
+                <td>Halaman Contact interaktif</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo">DANENDRA <span>ROSAN</span></a>
+          <p class="hero-role-badge" style="margin-top: 10px; margin-bottom: 0;">Student Developer &amp; Technology Enthusiast</p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="learning.html">Learning</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://github.com/versrosan" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Danendra Rosan. Semua hak dilindungi undang-undang</p>
+        <p>Built with Vanilla HTML5, CSS3 &amp; JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

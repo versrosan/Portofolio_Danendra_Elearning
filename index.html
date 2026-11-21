@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danendra Rosan — Personal Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">DANENDRA <span>ROSAN</span></a>
+
+      <button type="button" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav aria-label="Main navigation">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="learning.html" class="nav-link">Learning</a></li>
+          <li><a href="table.html" class="nav-link">Table</a></li>
+          <li><a href="media.html" class="nav-link">Media</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div>
+          <span class="hero-greeting">HALO, SELAMAT DATANG!</span>
+          <h1 class="hero-title">Hi, I'm Danendra Rosan.</h1>
+          <p class="hero-role-badge">Student Developer &amp; Technology Enthusiast</p>
+          <p class="hero-description">
+            Saya sedang mempelajari pengembangan website, teknologi, dan berbagai hal menarik di dunia IT.
+          </p>
+          <div class="btn-group">
+            <a href="#projects" class="btn btn-primary">Explore My Work</a>
+            <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="image-frame aspect-portrait">
+          <img src="assets/images/profile.jpg" alt="Foto profil Danendra Rosan">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What I Do</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Bidang dasar yang sedang saya pelajari dan praktikkan selama menempuh pendidikan di SMK.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="card-title">Web Development</h3>
+            <p class="card-text">
+              Membangun halaman website yang terstruktur rapi menggunakan HTML5 semantik, CSS3 modern, dan dasar-dasar JavaScript.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="9" y1="21" x2="9" y2="9"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Website Design</h3>
+            <p class="card-text">
+              Merancang tata letak antarmuka yang bersih, responsif, dan nyaman dibaca pada layar desktop maupun perangkat seluler.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">IT &amp; Networking</h3>
+            <p class="card-text">
+              Mempelajari konsep dasar jaringan komputer, konfigurasi perangkat, serta cara kerja sistem informasi di balik website.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container about-grid">
+        <div class="image-frame-offset">
+          <div class="image-frame aspect-portrait">
+            <img src="assets/images/about.jpg" alt="Ilustrasi atau foto Danendra Rosan saat belajar pemrograman web">
+          </div>
+        </div>
+
+        <div>
+          <div class="section-header text-left-header">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-divider"></div>
+          </div>
+          <p>
+            Saya adalah siswa Sekolah Menengah Kejuruan (SMK) di Indonesia yang memiliki ketertarikan besar pada dunia
+            <strong>pengembangan web</strong> dan <strong>jaringan komputer</strong>. Website portofolio ini merupakan proyek akhir pembelajaran HTML untuk mendokumentasikan progres belajar saya.
+          </p>
+
+          <ul class="check-list">
+            <li>
+              <span class="check-icon" aria-hidden="true">✓</span>
+              <span>Siswa SMK jurusan teknologi informasi &amp; jaringan</span>
+            </li>
+            <li>
+              <span class="check-icon" aria-hidden="true">✓</span>
+              <span>Fokus pada fondasi HTML5, CSS3, dan JavaScript dasar</span>
+            </li>
+            <li>
+              <span class="check-icon" aria-hidden="true">✓</span>
+              <span>Aktif mendokumentasikan tugas praktik E-Learning</span>
+            </li>
+          </ul>
+
+          <a href="about.html" class="btn btn-primary">Read More About Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Kumpulan latihan dan proyek pembelajaran yang saya kerjakan untuk mengasah pemahaman kode.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card project-card">
+            <div class="image-frame aspect-landscape">
+              <img src="assets/images/project-html-css.jpg" alt="Pratinjau proyek HTML dan CSS Projects">
+            </div>
+            <div class="project-card-body">
+              <h3 class="card-title">HTML &amp; CSS Projects</h3>
+              <p class="card-text">
+                Latihan membuat halaman web statis dengan struktur semantik, Flexbox, CSS Grid, dan tampilan responsif.
+              </p>
+              <a href="https://github.com/versrosan" target="_blank" rel="noopener noreferrer" class="project-link">
+                View on GitHub →
+              </a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="image-frame aspect-landscape">
+              <img src="assets/images/project-javascript.jpg" alt="Pratinjau proyek JavaScript Practice">
+            </div>
+            <div class="project-card-body">
+              <h3 class="card-title">JavaScript Practice</h3>
+              <p class="card-text">
+                Eksperimen interaksi halaman sederhana menggunakan manipulasi DOM, event listener, dan validasi formulir.
+              </p>
+              <a href="https://github.com/versrosan" target="_blank" rel="noopener noreferrer" class="project-link">
+                View on GitHub →
+              </a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="image-frame aspect-landscape">
+              <img src="assets/images/project-elearning.jpg" alt="Pratinjau tugas E-Learning Assignments">
+            </div>
+            <div class="project-card-body">
+              <h3 class="card-title">E-Learning Assignments</h3>
+              <p class="card-text">
+                Dokumentasi tugas praktik pembelajaran ke-7 hingga ke-15 yang tersusun rapi sebagai arsip belajar.
+              </p>
+              <a href="learning.html" class="project-link">
+                Open Learning Page →
+              </a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="image-frame aspect-landscape">
+              <img src="assets/images/project-experiments.jpg" alt="Pratinjau proyek Personal Experiments">
+            </div>
+            <div class="project-card-body">
+              <h3 class="card-title">Personal Experiments</h3>
+              <p class="card-text">
+                Uji coba elemen tabel, pemutar audio/video HTML5, serta tata letak komponen antarmuka modern.
+              </p>
+              <a href="table.html" class="project-link">
+                Explore Demos →
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Teknologi yang sedang saya pelajari secara bertahap.
+          </p>
+        </div>
+
+        <div class="grid-5">
+          <article class="card skill-card">
+            <h3 class="card-title">HTML</h3>
+            <span class="skill-level-badge">Learning</span>
+            <div class="skill-bar-track" aria-label="HTML level: Learning">
+              <div class="skill-bar-fill level-learning"></div>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <h3 class="card-title">CSS</h3>
+            <span class="skill-level-badge">Learning</span>
+            <div class="skill-bar-track" aria-label="CSS level: Learning">
+              <div class="skill-bar-fill level-learning"></div>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <h3 class="card-title">JavaScript</h3>
+            <span class="skill-level-badge">Beginner</span>
+            <div class="skill-bar-track" aria-label="JavaScript level: Beginner">
+              <div class="skill-bar-fill level-beginner"></div>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <h3 class="card-title">PHP</h3>
+            <span class="skill-level-badge">Beginner</span>
+            <div class="skill-bar-track" aria-label="PHP level: Beginner">
+              <div class="skill-bar-fill level-beginner"></div>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <h3 class="card-title">MySQL</h3>
+            <span class="skill-level-badge">Beginner</span>
+            <div class="skill-bar-track" aria-label="MySQL level: Beginner">
+              <div class="skill-bar-fill level-beginner"></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <h2 class="cta-title">Have a Project in Mind? Let's Build Something Great Together.</h2>
+        <a href="contact.html" class="btn btn-primary">Contact Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo">DANENDRA <span>ROSAN</span></a>
+          <p class="hero-role-badge" style="margin-top: 10px; margin-bottom: 0;">Student Developer &amp; Technology Enthusiast</p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="learning.html">Learning</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://github.com/versrosan" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Danendra Rosan. Semua hak dilindungi undang-undang</p>
+        <p>Built with Vanilla HTML5, CSS3 &amp; JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

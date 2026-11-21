@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Danendra Rosan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">DANENDRA <span>ROSAN</span></a>
+
+      <button type="button" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav aria-label="Main navigation">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link active">About</a></li>
+          <li><a href="learning.html" class="nav-link">Learning</a></li>
+          <li><a href="table.html" class="nav-link">Table</a></li>
+          <li><a href="media.html" class="nav-link">Media</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <h1>About Me</h1>
+        <p>Mengenal lebih dekat perjalanan belajar saya di dunia pengembangan web dan teknologi jaringan.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container about-grid">
+        <div class="image-frame-offset">
+          <div class="image-frame aspect-portrait">
+            <img src="assets/images/profile.jpg" alt="Foto profil Danendra Rosan">
+          </div>
+        </div>
+
+        <article>
+          <div class="section-header text-left-header">
+            <h2 class="section-title">Danendra Rosan</h2>
+            <div class="section-divider"></div>
+          </div>
+          <p style="margin-bottom: 14px;">
+            Halo! Nama saya <b>Danendra Rosan</b>, seorang pelajar Sekolah Menengah Kejuruan (SMK) di Indonesia yang
+            sedang mendalami <strong>pengembangan website</strong> dan <strong>jaringan komputer</strong>.
+          </p>
+          <p style="margin-bottom: 14px;">
+            Saat ini fokus utama saya adalah memahami cara kerja web dari dasar—mulai dari menulis struktur
+            <em>semantic HTML</em> yang rapi, mengatur tata letak menggunakan CSS modern, hingga menambahkan interaksi
+            sederhana dengan <i>vanilla JavaScript</i>.
+          </p>
+          <p>
+            Melalui proyek portofolio ini, saya berusaha menerapkan standar penulisan kode yang <mark>bersih dan mudah dipelihara</mark>
+            serta <u>konsisten di setiap halaman</u>.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header text-left-header">
+          <h2 class="section-title">My Learning Journey</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Tahapan belajar pengembangan web yang saya lalui secara bertahap.</p>
+        </div>
+
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <p class="timeline-step">Tahap 01 — Fondasi Web</p>
+            <h3>Mengenal Struktur HTML5</h3>
+            <p>Mempelajari elemen dasar dokumen HTML, tag semantik seperti header, nav, main, section, serta penggunaan formulir dan tabel.</p>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-step">Tahap 02 — Tata Letak &amp; Gaya</p>
+            <h3>Memperdalam CSS3 &amp; Responsivitas</h3>
+            <p>Berlatih menggunakan CSS variables, Flexbox, dan CSS Grid agar tampilan halaman tetap rapi di desktop, tablet, dan ponsel.</p>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-step">Tahap 03 — Interaktivitas Dasar</p>
+            <h3>Dasar JavaScript &amp; DOM</h3>
+            <p>Menggunakan JavaScript murni untuk membuat menu navigasi mobile, validasi formulir sederhana, dan tombol kembali ke atas.</p>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-step">Tahap 04 — Eksplorasi Lanjutan</p>
+            <h3>Pengenalan PHP, MySQL &amp; Networking</h3>
+            <p>Mulai mengenal cara kerja server lokal, basis data dasar, dan konsep jaringan komputer yang mendukung operasional aplikasi web.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <article class="card">
+          <h2 class="card-title">My Interests</h2>
+          <p class="card-text" style="margin-bottom: 14px;">
+            Beberapa topik teknologi yang paling menarik minat saya untuk terus dipelajari:
+          </p>
+          <ul>
+            <li>Pengembangan tampilan web (Front-End Basics)</li>
+            <li>Desain antarmuka yang minimalis dan mudah digunakan</li>
+            <li>Jaringan komputer &amp; konfigurasi dasar perangkat</li>
+            <li>Pengelolaan tugas dan kode menggunakan Git &amp; GitHub</li>
+          </ul>
+        </article>
+
+        <aside class="card">
+          <h2 class="card-title">Personal Goals</h2>
+          <p class="card-text" style="margin-bottom: 14px;">
+            Target belajar jangka pendek yang ingin saya capai selama masa sekolah:
+          </p>
+          <ul>
+            <li>Menguasai penulisan HTML5 dan CSS3 tanpa bergantung pada framework.</li>
+            <li>Memahami logika dasar JavaScript untuk interaksi halaman web.</li>
+            <li>Membangun proyek kecil dengan integrasi PHP dan MySQL.</li>
+            <li>Terus mendokumentasikan setiap latihan di GitHub <strong>@versrosan</strong>.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Tingkat pemahaman saat ini berdasarkan materi yang sedang dipelajari.</p>
+        </div>
+
+        <div class="grid-5">
+          <article class="card skill-card">
+            <h3 class="card-title">HTML</h3>
+            <span class="skill-level-badge">Learning</span>
+            <div class="skill-bar-track"><div class="skill-bar-fill level-learning"></div></div>
+          </article>
+          <article class="card skill-card">
+            <h3 class="card-title">CSS</h3>
+            <span class="skill-level-badge">Learning</span>
+            <div class="skill-bar-track"><div class="skill-bar-fill level-learning"></div></div>
+          </article>
+          <article class="card skill-card">
+            <h3 class="card-title">JavaScript</h3>
+            <span class="skill-level-badge">Beginner</span>
+            <div class="skill-bar-track"><div class="skill-bar-fill level-beginner"></div></div>
+          </article>
+          <article class="card skill-card">
+            <h3 class="card-title">PHP</h3>
+            <span class="skill-level-badge">Beginner</span>
+            <div class="skill-bar-track"><div class="skill-bar-fill level-beginner"></div></div>
+          </article>
+          <article class="card skill-card">
+            <h3 class="card-title">MySQL</h3>
+            <span class="skill-level-badge">Beginner</span>
+            <div class="skill-bar-track"><div class="skill-bar-fill level-beginner"></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo">DANENDRA <span>ROSAN</span></a>
+          <p class="hero-role-badge" style="margin-top: 10px; margin-bottom: 0;">Student Developer &amp; Technology Enthusiast</p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="learning.html">Learning</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://github.com/versrosan" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Danendra Rosan. Semua hak dilindungi undang-undang</p>
+        <p>Built with Vanilla HTML5, CSS3 &amp; JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

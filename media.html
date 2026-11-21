@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media — Video &amp; Audio Demonstration | Danendra Rosan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">DANENDRA <span>ROSAN</span></a>
+
+      <button type="button" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav aria-label="Main navigation">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="learning.html" class="nav-link">Learning</a></li>
+          <li><a href="table.html" class="nav-link">Table</a></li>
+          <li><a href="media.html" class="nav-link active">Media</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <h1>Multimedia Demonstration</h1>
+        <p>Halaman ini mendemonstrasikan penggunaan elemen <code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code>, dan <code>&lt;source&gt;</code> pada HTML5.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <article class="media-card">
+          <h2>Video Demonstration</h2>
+          <p class="section-subtitle" style="margin-top: 6px;">
+            Pemutar video HTML5 responsif dengan atribut <code>controls</code>.
+          </p>
+
+          <video class="media-player-video" controls>
+            <source src="assets/videos/cat-herd.webm" type="video/webm">
+            Browser Anda tidak mendukung elemen video HTML5.
+          </video>
+
+          <p class="media-caption">
+            <strong>Keterangan:</strong> Kucing Dioyak Koboi
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <article class="media-card">
+          <h2>Audio Demonstration</h2>
+          <p class="section-subtitle" style="margin-top: 6px;">
+            Pemutar audio HTML5 bawaan browser dengan atribut <code>controls</code>.
+          </p>
+
+          <audio class="media-player-audio" controls>
+            <source src="assets/audio/fav-1.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung elemen audio HTML5.
+          </audio>
+
+          <p class="media-caption">
+            <strong>Keterangan:</strong> Kahitna - Mantan Terindah.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo">DANENDRA <span>ROSAN</span></a>
+          <p class="hero-role-badge" style="margin-top: 10px; margin-bottom: 0;">Student Developer &amp; Technology Enthusiast</p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="learning.html">Learning</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://github.com/versrosan" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Danendra Rosan. Semua hak dilindungi undang-undang</p>
+        <p>Built with Vanilla HTML5, CSS3 &amp; JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
