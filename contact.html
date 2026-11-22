@@ -11,10 +11,12 @@
   <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
+  <!-- Header dan Navigasi Utama -->
   <header class="site-header">
     <div class="container nav-wrapper">
       <a href="index.html" class="brand-logo">DANENDRA <span>ROSAN</span></a>
 
+      <!-- Tombol Menu Navigasi Mobile -->
       <button type="button" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -23,6 +25,7 @@
         </svg>
       </button>
 
+      <!-- Daftar Menu Navigasi -->
       <nav aria-label="Main navigation">
         <ul id="nav-menu" class="nav-menu">
           <li><a href="index.html" class="nav-link">Home</a></li>
@@ -36,7 +39,9 @@
     </div>
   </header>
 
+  <!-- Konten Utama Halaman Kontak -->
   <main>
+    <!-- Banner Judul Halaman -->
     <section class="page-banner">
       <div class="container">
         <h1>Contact Me</h1>
@@ -44,8 +49,10 @@
       </div>
     </section>
 
+    <!-- Section Informasi dan Formulir Kontak -->
     <section class="section">
       <div class="container contact-grid">
+        <!-- Kolom Informasi Kontak -->
         <aside>
           <div class="section-header text-left-header" style="margin-bottom: 18px;">
             <h2 class="section-title">Get in Touch</h2>
@@ -55,6 +62,7 @@
             Anda dapat menghubungi saya melalui tautan di bawah ini atau mengisi formulir di samping.
           </p>
 
+          <!-- Daftar Tautan Kontak -->
           <ul class="contact-info-list">
             <li class="contact-info-item">
               <div>
@@ -77,9 +85,11 @@
           </ul>
         </aside>
 
+        <!-- Kartu Formulir Kontak -->
         <div class="contact-form-card">
           <h2 style="font-size: 1.375rem; font-weight: 800; margin-bottom: 18px;">Send a Message</h2>
 
+          <!-- Formulir Pengiriman Pesan -->
           <form id="contact-form">
             <div class="form-group">
               <label for="full-name" class="form-label">Full Name</label>
@@ -109,6 +119,7 @@
 
             <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
 
+            <!-- Area Umpan Balik Validasi Formulir -->
             <div id="form-feedback" class="form-feedback" role="status" aria-live="polite"></div>
           </form>
         </div>
@@ -116,6 +127,7 @@
     </section>
   </main>
 
+  <!-- Footer Website -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
@@ -142,7 +154,9 @@
     </div>
   </footer>
 
+  <!-- anchor keatas button -->
   <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+  <!-- main javascript -->
   <script src="scripts/script.js"></script>
 </body>
 </html>

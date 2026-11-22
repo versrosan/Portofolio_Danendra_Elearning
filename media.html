@@ -11,10 +11,12 @@
   <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
+  <!-- Header dan Navigasi Utama -->
   <header class="site-header">
     <div class="container nav-wrapper">
       <a href="index.html" class="brand-logo">DANENDRA <span>ROSAN</span></a>
 
+      <!-- Tombol Menu Navigasi Mobile -->
       <button type="button" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -23,6 +25,7 @@
         </svg>
       </button>
 
+      <!-- Daftar Menu Navigasi -->
       <nav aria-label="Main navigation">
         <ul id="nav-menu" class="nav-menu">
           <li><a href="index.html" class="nav-link">Home</a></li>
@@ -36,7 +39,9 @@
     </div>
   </header>
 
+  <!-- Konten Utama Halaman Multimedia -->
   <main>
+    <!-- Banner Judul Halaman -->
     <section class="page-banner">
       <div class="container">
         <h1>Multimedia Demonstration</h1>
@@ -44,14 +49,17 @@
       </div>
     </section>
 
+    <!-- Section Demonstrasi Video HTML5 -->
     <section class="section">
       <div class="container">
+        <!-- Kartu Pemutar Video -->
         <article class="media-card">
           <h2>Video Demonstration</h2>
           <p class="section-subtitle" style="margin-top: 6px;">
             Pemutar video HTML5 responsif dengan atribut <code>controls</code>.
           </p>
 
+          <!-- Pemutar Video HTML5 -->
           <video class="media-player-video" controls>
             <source src="assets/videos/cat-herd.webm" type="video/webm">
             Browser Anda tidak mendukung elemen video HTML5.
@@ -64,14 +72,17 @@
       </div>
     </section>
 
+    <!-- Section Demonstrasi Audio HTML5 -->
     <section class="section section-light">
       <div class="container">
+        <!-- Kartu Pemutar Audio -->
         <article class="media-card">
           <h2>Audio Demonstration</h2>
           <p class="section-subtitle" style="margin-top: 6px;">
             Pemutar audio HTML5 bawaan browser dengan atribut <code>controls</code>.
           </p>
 
+          <!-- Pemutar Audio HTML5 -->
           <audio class="media-player-audio" controls>
             <source src="assets/audio/fav-1.mp3" type="audio/mpeg">
             Browser Anda tidak mendukung elemen audio HTML5.
@@ -85,6 +96,7 @@
     </section>
   </main>
 
+  <!-- Footer Website -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
@@ -111,7 +123,9 @@
     </div>
   </footer>
 
+  <!-- anchor keatas button -->
   <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+  <!-- main javascript -->
   <script src="scripts/script.js"></script>
 </body>
 </html>
