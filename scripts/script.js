@@ -4,6 +4,7 @@
    - Active navigation link highlight
    - Contact form validation feedback
    - Back-to-top button
+   - Section title word reveal on scroll (GSAP)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -71,6 +72,35 @@ document.addEventListener("DOMContentLoaded", function () {
 
     backToTopBtn.addEventListener("click", function () {
       window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  /* 5. Section Title Word Reveal (GSAP + ScrollTrigger + SplitText) */
+  if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined" && typeof SplitText !== "undefined") {
+    gsap.registerPlugin(ScrollTrigger, SplitText);
+
+    const revealTitles = document.querySelectorAll(
+      ".hero-title, .page-banner h1, .section-title, .cta-title, .github-banner h2, .media-card h2"
+    );
+
+    // Only animate when the user has not asked for reduced motion; otherwise titles stay static.
+    gsap.matchMedia().add("(prefers-reduced-motion: no-preference)", function () {
+      revealTitles.forEach(function (title) {
+        const split = SplitText.create(title, { type: "words", aria: "auto" });
+
+        gsap.from(split.words, {
+          autoAlpha: 0,
+          y: 16,
+          duration: 0.6,
+          ease: "power2.out",
+          stagger: 0.08,
+          scrollTrigger: {
+            trigger: title,
+            start: "top 88%",
+            once: true
+          }
+        });
+      });
     });
   }
 });
